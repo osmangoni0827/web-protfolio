@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0%;
+    background-color: #f5f8fa;
 }
 section{
     height: 500px;
@@ -27,6 +28,7 @@ h1{
 h2{
     font-size: 40px;
     padding: 0px;
+
 }
 
 
@@ -88,6 +90,11 @@ button:hover{
     background-image: url("images/portfolio img/exp-bg.png");
     background-position:left;
 }
+.experiance-aria h2{
+    margin-left: 6%;
+    padding: 5px;
+
+}
 #fulstack{
     border-left: 5px solid;
     border-image:linear-gradient(rgb(255, 138, 71),rgb(250, 5, 99));
@@ -100,8 +107,11 @@ button:hover{
 }
 footer p{
     text-align: center;
-    padding: 10px;
+    padding: 3px;
     margin: 0px;
     font-size: 13px;
     font-weight: 600;
+}
+footer{
+    margin: 10px;
 }

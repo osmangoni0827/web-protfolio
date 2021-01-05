@@ -1,0 +1,107 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+section{
+    height: 500px;
+    padding-bottom: 160px;
+}
+.topsection{
+    background-repeat: no-repeat;
+    background-image: url("images/portfolio img/top-banner.png");
+}
+.midsection{
+    background-repeat: no-repeat;
+    background-image: url("images/portfolio img/dream-bg.png");
+    background-position: right;
+}
+.h-tag{
+    font-family: 'Piazzolla', serif;
+    padding: 0px;
+}
+h1{
+    font-size: 45px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+h2{
+    font-size: 40px;
+    padding: 0px;
+}
+
+
+.heighlight{
+
+    color: rgb(238, 68, 12);
+}
+p{
+    text-align: justify;
+    margin-bottom: 0px;
+    color: #282C34;
+}
+button{
+    float: left;
+    background-image: linear-gradient(90deg,lightsalmon,tomato);
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+    border: 2px solid rosybrown;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.topsection button{
+    margin-top: 0px;
+    width: 100px;
+}
+a{
+    text-decoration: none;
+}
+button:hover{
+    background-image: linear-gradient(90deg,rgb(245, 156, 121),tomato);
+    color: #fffefc;
+}
+ .half-width{
+    float: left;
+    display: block;
+    width: 40%;
+    margin-left: 6%;
+    padding: 5px;
+
+}
+.half-width img{
+    padding-top: 20px;
+    width: 100%;
+}
+.design-experience{
+    box-shadow: 12px 12px 35px rgb(161, 148, 148);
+    height: 80%;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: white;
+}
+.experiance-aria{
+    background-repeat: no-repeat;
+    background-image: url("images/portfolio img/exp-bg.png");
+    background-position:left;
+}
+#fulstack{
+    border-left: 5px solid;
+    border-image:linear-gradient(rgb(255, 138, 71),rgb(250, 5, 99));
+    border-image-slice: 1;
+}
+#babyweb{
+    border-left: 5px solid;
+    border-image: linear-gradient(#389BF5,#19D5D5);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-size: 13px;
+    font-weight: 600;
+}

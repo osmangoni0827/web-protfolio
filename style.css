@@ -85,6 +85,10 @@ button:hover{
     margin-top: 10px;
     background-color: white;
 }
+.design-experience p{
+    width: 100%;
+    height: 100%;
+}
 .experiance-aria{
     background-repeat: no-repeat;
     background-image: url("images/portfolio img/exp-bg.png");
